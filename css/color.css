@@ -1,0 +1,133 @@
+/* Estilos para el Recuadro Superior */
+.header-box {
+  background-color: yellow; 
+  padding: 20px;
+  text-align: center; 
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Ajustes para el Título dentro del Recuadro */
+.header-box h1 {
+  color: #333; 
+  font-size: 3em;
+  margin: 0;
+  text-shadow: none; 
+}
+
+/* 1. Color de Primer Plano (Texto) */
+p {
+  color: #1a73e8; 
+  font-size: 1.5em;
+  text-align: center; 
+}
+
+/* 2. Color de Cursor (Caret) */
+input {
+  caret-color: red;
+  font-size: 1.5em;
+  text-align: center; 
+  display: block; 
+  margin: 20px auto; 
+  width: 400px; 
+  padding: 5px;
+}
+
+
+
+/* 3. Color de Borde (Border-color) - Aplicado a una clase específica */
+.box-con-borde-demo {
+  border: 2px solid;
+  /* CAMBIO: Aumentamos la opacidad a 0.9 (90% opaco) */
+  border-color: hsla(288, 79%, 54%, 0.9); 
+  background-color: white;
+  font-size: 1.5em;
+  padding: 10px;
+  text-align: center;
+  display: block;  
+  margin: 20px auto; 
+  width: 400px; 
+
+   
+}
+/* 4. Color de Contorno (Outline-color en Foco) */
+.center-link {
+    text-align: center;
+    margin-top: 20px; /* Espacio de separación */
+}
+
+a {
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #1a73e8
+}
+ a:focus{  outline-style: solid;
+  outline-width: 3px;
+  outline-color: #00FF00;  /* Verde Fluorescente (Hexadecimal) */
+
+}
+
+/* 5. Color de Fondo (Background-color) */
+body {
+  background-color: #f0f0f1; /* Gris Oscuro */
+}
+
+/* 6. Imagen/Gradiente de Fondo (Background-image - Gradiente) + 8. box-shadow */
+.box-gradient {
+  background-image: linear-gradient(to right, blue, cyan);
+  height: auto;
+  min-height: 50px; 
+  width: 400px;
+  margin-top: 20px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; 
+}
+  
+.texto-gradiente {
+    font-size: 0.8em; 
+    color: rgb(0, 0, 0); 
+    margin: 0; 
+    text-align: center;
+}
+
+
+/* 7 Sombra de Texto (Text-shadow) */
+.text-sombra {
+    text-shadow: 2px 2px 4px #f80101;
+    color: rgb(8, 0, 0); 
+    padding: 10px;
+    width: fit-content;
+    margin: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* 8. Sombra sombra-elevada (box-shadow) */
+.ejemplo-sombra-elevada {
+  /* 1. Valores de la Sombra */
+  box-shadow: 5px 
+    5px 
+    15px 
+    rgba(0, 0, 0, 0.9); 
+
+  width: auto;
+  height: auto;
+  background-color: rgb(123, 231, 222);
+  border-radius: 8px;
+  margin: 30px auto; 
+}
+
+.ejemplo-sombra-elevada p {
+    color: black;
+}
