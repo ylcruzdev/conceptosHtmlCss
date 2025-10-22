@@ -1,0 +1,102 @@
+/*
+    Estilos Base (Aplicados por defecto, idealmente para pantallas grandes > 800px)
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1.25rem; 
+    background-color: #feffff;
+}
+
+.contenedor {
+    /* Estilos para pantallas grandes (por encima de 800px) */
+    width: 60%; 
+    margin: 2.5rem auto; 
+    padding: 1.25rem; 
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    border-radius: 0.625rem; 
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.9); 
+    transition: all 0.5s ease; 
+}
+
+/*
+    Media Query 1: Aplicar estilos solo si el ancho máximo es de 800px o menos.
+*/
+@media (max-width: 800px) {
+    
+    .contenedor {
+        width: 90%; 
+        margin: 1.25rem auto; 
+        background-color: #e74c3c;
+        box-shadow: 0 0 0.9375rem rgba(231, 76, 60, 0.9);
+    }
+}
+
+/*
+    Media Query 2: Para pantallas muy pequeñas (ej. móviles)
+*/
+@media (max-width: 500px) {
+    
+    .contenedor {
+        
+        width: 100%; 
+        margin: 0;
+        padding: 0.9375rem; 
+        border-radius: 0;
+        background-color: #27ae60;
+        box-shadow: 0 0 0.9375rem rgba(29, 201, 44, 0.9);
+        font-size: 0.9em; 
+    }
+    
+    body {
+        padding: 0;
+    }
+}
+
+.contenedor img {
+   max-width: 100%; 
+   height: auto; 
+   display: block; 
+   border-radius: 0.3125rem;
+   margin: 1.25rem auto; 
+}
+
+
+
+.flex-item-caja {
+    flex: 1; 
+    padding: 1.5rem;
+    background-color: #34495e; 
+    color: white;
+    text-align: center;
+    border-radius: 0.3125rem;
+    min-width: 150px; 
+}
+
+/* El Contenedor Flex: Por defecto (escritorio), se comporta como una FILA */
+.flex-contenedor-responsivo {
+    display: flex; 
+    flex-direction: row; 
+    gap: 1.25rem; 
+    padding: 1.25rem;
+    background-color: #f1c40f; 
+    
+    /* Configuración para centrar el flexbox y darle un ancho máximo, 
+       sin ser limitado por otro contenedor. */
+    margin: 2.5rem auto; 
+    max-width: 1000px;
+    
+    border-radius: 0.625rem;
+}
+
+/* Media Query: CAMBIO DE ORIENTACIÓN a Vertical en pantallas pequeñas */
+@media (max-width: 600px) {
+    
+    .flex-contenedor-responsivo {
+       
+        flex-direction: column; 
+        gap: 0.625rem; 
+    }
+}
