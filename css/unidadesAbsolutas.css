@@ -1,0 +1,73 @@
+html {
+    font-size: 16px;
+}
+
+.div-px {
+    border: 0.5rem solid blue;
+    border-radius: 1rem;
+    height: 8rem;
+    width: 200px;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.padre-20em {
+    font-size: 20px;
+}
+
+.div-pt {
+    border: 0.5em solid greenyellow;
+    border-radius: 1em;
+    height: 8rem;
+    width: 200pt;
+    margin: 0.5rem;
+    padding: 1em;
+}
+
+.div-in {
+    border: 0.5rem solid green;
+    border-radius: 1rem;
+    height: 10rem;
+    width: 2in;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.div-cm {
+    border: 0.5rem solid blue;
+    border-radius: 1rem;
+    height: 5rem;
+    width: 10cm;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.div-mm {
+    border: 0.5rem solid greenyellow;
+    border-radius: 1rem;
+    height: 5rem;
+    width: 200mm;
+    margin: 0.5rem;
+    padding: 1rem;
+
+}
+
+.div-otras {
+    width: 30rem;
+    padding: 1rem;
+    border: 0.3rem solid green;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.p3pc{
+    font-size: 3pc;
+    margin: 0.5rem;
+}
+
+.p3q{
+    font-size: 30q;
+    margin: 0.5rem;
+
+}

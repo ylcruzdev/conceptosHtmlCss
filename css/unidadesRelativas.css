@@ -1,0 +1,75 @@
+html {
+    font-size: 16px;
+}
+
+.div-20 {
+    border: 0.5rem solid blue;
+    border-radius: 1rem;
+    height: 5rem;
+    width: 20%;
+    margin: 2%;
+    padding: 1rem;
+}
+
+.padre-20em {
+    font-size: 20px;
+}
+
+.div-20em {
+    border: 0.5em solid greenyellow;
+    border-radius: 1em;
+    height: 10em;
+    width: 20em;
+    margin: 2em;
+    padding: 1em;
+}
+
+.div-20rem {
+    border: 0.5rem solid green;
+    border-radius: 1rem;
+    height: 10rem;
+    width: 20rem;
+}
+
+.div-vw {
+    border: 0.5rem solid blue;
+    border-radius: 1rem;
+    height: 10vh;
+    width: 20vw;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.div-vmin {
+    border: 0.5rem solid greenyellow;
+    border-radius: 1rem;
+    height: 10vmax;
+    width: 20vmin;
+    margin: 2rem;
+    padding: 1rem;
+
+}
+
+.div-otras {
+    width: 30rem;
+    padding: 1rem;
+    border: 0.3rem solid green;
+    border-radius: 1rem;
+}
+
+.p3ex{
+    font-size: 3ex;
+    margin: 0.5rem;
+}
+
+.p3ch{
+    font-size: 3ch;
+    margin: 0.5rem;
+
+}
+
+.p3lh{
+    font-size: 3lh;
+    margin: 0.5rem;
+
+}

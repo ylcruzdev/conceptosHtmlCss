@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conceptos HTML y CSS</title>
-    <link rel="stylesheet" href="css/index.css">
-    <script src="js/index.js"></script>
+    <title>Unidades Relativas</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/unidadesRelativas.css">
 </head>
 <body>
 
@@ -79,7 +79,7 @@
                                 <a class="item-nav" href="#">Text</a>
                             </li>
                             <li>
-                                <a class="item-nav" href="examples/unidadesRelativas.html">Unidades relativas</a>
+                                <a class="item-nav" href="#">Unidades relativas</a>
                             </li>
                             <li>
                                 <a class="item-nav" href="#">Unidades absolutas</a>
@@ -98,14 +98,50 @@
             
             <header>
                 <div class="flex c-center">
-                    <h1>Ejemplos de conceptos de HTML y CSS</h1>
+                    <h1>Ejemplos de Unidades Relativas</h1>
                 </div>
             </header>
 
             <section class="p-1 w-100">
+
                 <div class="flex c-center">
-                    <p>Aqui podras encontrar algunos ejemplos de ocmo funcionan cada uno de los conceptos de HTML y CSS</p>
+                    <div class="flex c-center div-20">
+                        <p>Este div tiene un ancho de 20% </p>
+                    </div>
                 </div>
+
+                <div class="flex c-center padre-20em">
+                    <div class="flex c-center div-20em">
+                        <p>Este div tiene un ancho de 20em </p>
+                    </div>
+                </div>
+
+                <div class="flex c-center">
+                    <div class="flex c-center div-20rem">
+                        <p>Este div tiene un ancho de 20rem </p>
+                    </div>
+                </div>
+
+                <div class="flex c-center">
+                    <div class="flex c-center div-vw">
+                        <p>Este div tiene un ancho de 20vw y un alto de 10vh</p>
+                    </div>
+                </div>
+
+                <div class="flex c-center">
+                    <div class="flex c-center div-vmin">
+                        <p>Este div tiene un ancho de 20vmin y un alto de 10vmax</p>
+                    </div>
+                </div>
+
+                <div class="flex c-center">
+                    <div class="div-otras">
+                        <p class="p3ex">Este texto tiene como font-size 3ex</p>
+                        <p class="p3ch">Este texto tiene como font-size 3ch</p>
+                        <p class="p3lh">Este texto tiene como font-size 3lh</p>
+                    </div>
+                </div>
+
             </section>
 
         </div>        
