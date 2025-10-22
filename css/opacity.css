@@ -1,4 +1,4 @@
- h1 {
+ .sin-opacity {
       background-color: rgb(238, 238, 83);
       display: flex;
       justify-content: center;
@@ -8,26 +8,30 @@
 }
 
 
-div h1 {
+.title {
     background-color: blueviolet;
+    text-align: center;
     
 }
 
-div h2 { 
+.con-opacity { 
     background-color: brown;
     opacity: 0.5;   
+    text-align: center;
+
 }
 
-div h3 {
+.opacity-tran {
     background-color: pink;
+    text-align: center;
 }
 
-div h3:hover {
+.opacity-tran:hover {
     background-color: pink;
     opacity: 0.1;
 }
 
-div {
+/*div {
     flex-direction: column;
     display: flex;
     text-align: center; 
@@ -42,4 +46,4 @@ div * {
     min-height: 5rem;
     font-size: 2rem;
 
-}
+}*/

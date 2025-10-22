@@ -32,6 +32,11 @@ body {
         background-color: #e74c3c;
         box-shadow: 0 0 0.9375rem rgba(231, 76, 60, 0.9);
     }
+
+    .flex-contenedor-responsivo {       
+        flex-direction: column; 
+        gap: 0.625rem; 
+    }
 }
 
 /*
@@ -94,8 +99,7 @@ body {
 /* Media Query: CAMBIO DE ORIENTACIÓN a Vertical en pantallas pequeñas */
 @media (max-width: 600px) {
     
-    .flex-contenedor-responsivo {
-       
+    .flex-contenedor-responsivo {       
         flex-direction: column; 
         gap: 0.625rem; 
     }

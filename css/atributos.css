@@ -1,6 +1,9 @@
-h1{background-color: darkmagenta;
+.title-morado{
+    background-color: darkmagenta;
     display: flex;
-     justify-content:center;}
+    justify-content:center;
+    color: black;
+}
 
 
 input[type="text"]{
@@ -26,14 +29,14 @@ div[id="myid"]{
     width: 100%;
 }
 
+div[id="myid"] p{
+    color: black;
+}
+
 img[alt="img"]{
     background-color:yellow;
-   
     justify-content:center;
     margin: 1rem;
-
-    
-
 }   
  button[value="body"]{
     background-color: green;
