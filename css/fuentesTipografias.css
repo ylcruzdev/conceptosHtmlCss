@@ -1,0 +1,40 @@
+.fuentehtml{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 200;
+    
+    
+}    
+
+.fuentesdegoogle{
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: inherit;
+    font-variant: unset;
+    font-size: 5rem;
+   
+    
+}
+
+.fuente-de-Eder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+    font-weight: 800;
+    
+
+}
+
+.fuente-de-google{
+    font-family: Sofia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    
+}
+.content-dad{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}

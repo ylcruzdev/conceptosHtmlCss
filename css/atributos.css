@@ -1,0 +1,54 @@
+h1{background-color: darkmagenta;
+    display: flex;
+     justify-content:center;}
+
+
+input[type="text"]{
+    background-color: rgb(204, 18, 18);
+    height: 3rem;
+    justify-content: center;
+    margin: 1rem;
+}
+
+input[type="checkbox"]{
+    background-color: rgb(243, 106, 7);
+    height: 4rem;
+    justify-content: center;
+    width: 2rem;
+}
+
+div[id="myid"]{
+    background-color: blue;
+    row-gap: 3rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    width: 100%;
+}
+
+img[alt="img"]{
+    background-color:yellow;
+   
+    justify-content:center;
+    margin: 1rem;
+
+    
+
+}   
+ button[value="body"]{
+    background-color: green;
+    justify-content:center;
+    font-size:3rem;
+
+}
+.div-padre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenBotton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
