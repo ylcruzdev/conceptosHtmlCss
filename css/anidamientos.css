@@ -1,0 +1,67 @@
+html{
+        font-size: 16px;
+}
+ul {
+  list-style-type: none;
+  margin: 0.5rem;
+  
+}
+
+.lista  h1 {
+           font-style: italic;
+           font-variant: small-caps;
+           justify-content: center;
+           display: flex;
+           align-items: center;
+           margin: 0.5rem;
+           font-size: 2rem;
+          }
+
+.imagen h1 {
+           font-style: italic;
+           font-variant: small-caps;
+           justify-content: center;
+           display: flex;
+           align-items: center;
+           font-size: 2rem;
+          }
+.tablas h1 {
+           font-style: italic;
+           font-variant: small-caps;
+           justify-content: center;
+           display: flex;
+           align-items: center;
+           font-size: 2rem;
+          }
+
+.lista {
+        background-color: chocolate;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+        font-weight: 700;
+        font-display:auto;
+        
+      }
+
+.imagen {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       }
+
+.tablas {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        }
+.tiposviajeros {
+                color: white;
+                font-size: 1.5rem;
+                font-weight: 900;
+                }
