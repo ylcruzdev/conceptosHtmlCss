@@ -1,10 +1,12 @@
 /* Estilos para el Recuadro Superior */
 .header-box {
+  /* Color de Fondo (Background-color): Establece el fondo del recuadro a amarillo. */
   background-color: yellow; 
   padding: 20px;
   text-align: center; 
   margin-bottom: 30px;
   border-radius: 10px;
+  /* Sombra de Caja (Box-shadow): Sombra sutil para dar un efecto de elevación. */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -18,14 +20,15 @@
 
 /* 1. Color de Primer Plano (Texto) */
 p {
-  color: #1a73e8; 
+  color: #1a73e8; /* Formato: Hexadecimal */
   /*font-size: 1.5em;*/
   text-align: center; 
 }
 
 /* 2. Color de Cursor (Caret) */
 input {
-  caret-color: red;
+  /* Define el color del cursor de escritura dentro del campo de entrada. */
+  caret-color: red; /* Formato: Nombre de Color */
   font-size: 1.5em;
   text-align: center; 
   display: block; 
@@ -37,8 +40,9 @@ input {
 /* 3. Color de Borde (Border-color) - Aplicado a una clase específica */
 .box-con-borde-demo {
   border: 2px solid;
-  /* CAMBIO: Aumentamos la opacidad a 0.9 (90% opaco) */
-  border-color: hsla(288, 79%, 54%, 0.9); 
+ /* Define el color del borde utilizando HSLA (Hue, Saturation, Lightness, Alpha). */
+  /* El color es morado/violeta (288, 79%, 54%) con 90% de opacidad (0.9). */
+  border-color: hsla(288, 79%, 54%, 0.9);  /* Formato: HSLA */
   background-color: white;
   font-size: 1.5em;
   padding: 10px;
@@ -63,20 +67,23 @@ input {
   text-decoration: none;
   color: #1a73e8
 }*/
-
+/* Estilo que se aplica al elemento 'a' (enlace) cuando recibe el foco (navegación con teclado) */
  a:focus{  outline-style: solid;
   outline-width: 3px;
-  outline-color: #00FF00;  /* Verde Fluorescente (Hexadecimal) */
+  /* Color del contorno: Verde Fluorescente. Importante para accesibilidad. */
+  outline-color: #00FF00;  
 
 }
 
 /* 5. Color de Fondo (Background-color) */
 body {
+  /* Fondo de la página: Gris muy claro. */
   background-color: #f0f0f1; /* Gris Oscuro */
 }
 
 /* 6. Imagen/Gradiente de Fondo (Background-image - Gradiente) + 8. box-shadow */
 .box-gradient {
+  /* Establece un gradiente lineal de izquierda a derecha, yendo de azul a cian. */
   background-image: linear-gradient(to right, blue, cyan);
   height: auto;
   min-height: 50px; 
@@ -94,6 +101,7 @@ body {
   
 .texto-gradiente {
     font-size: 0.8em; 
+    /* Color del texto dentro de la caja con gradiente: Negro. */
     color: rgb(0, 0, 0); 
     margin: 0; 
     text-align: center;
@@ -102,7 +110,9 @@ body {
 
 /* 7 Sombra de Texto (Text-shadow) */
 .text-sombra {
+  /* Aplica una sombra roja (2px de desplazamiento, 4px de desenfoque) al texto. */
     text-shadow: 2px 2px 4px #f80101;
+    /* Color del texto en sí (un negro muy sutilmente rojizo). */
     color: rgb(8, 0, 0); 
     padding: 10px;
     width: fit-content;
@@ -114,19 +124,21 @@ body {
 
 /* 8. Sombra sombra-elevada (box-shadow) */
 .ejemplo-sombra-elevada {
-  /* 1. Valores de la Sombra */
-  box-shadow: 5px 
-    5px 
-    15px 
-    rgba(0, 0, 0, 0.9); 
+  /* Crea una sombra grande y profunda. Color: Negro con 90% de opacidad (casi sólido). */
+  box-shadow: 5px /* Desplazamiento X */
+    5px  /* Desplazamiento Y */
+    15px /* Radio de Desenfoque */
+    rgba(0, 0, 0, 0.9); /* Color y Opacidad (RGBA) */
 
   width: auto;
   height: auto;
+  /* Fondo de la caja: Color Turquesa/Aguamarina. */
   background-color: rgb(123, 231, 222);
   border-radius: 8px;
   margin: 30px auto; 
 }
 
 .ejemplo-sombra-elevada p {
+  /* Asegura que el texto en la caja elevada sea negro para buen contraste. */
     color: black;
 }
