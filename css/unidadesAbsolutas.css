@@ -2,11 +2,12 @@ html {
     font-size: 16px;
 }
 
+/* usamos esta clase para usar medidas absolutas en px*/
 .div-px {
     border: 0.5rem solid blue;
     border-radius: 1rem;
     height: 8rem;
-    width: 200px;
+    width: 200px; /* usamos 200px ancho fijo */
     margin: 0.5rem;
     padding: 1rem;
 }
@@ -15,20 +16,22 @@ html {
     font-size: 20px;
 }
 
+/* usamos esta clase para usar medidas absolutas en pt*/
 .div-pt {
     border: 0.5em solid greenyellow;
     border-radius: 1em;
     height: 8rem;
-    width: 200pt;
+    width: 200pt; /* usamos 200pt ancho fijo */
     margin: 0.5rem;
     padding: 1em;
 }
 
+/* usamos esta clase para usar medidas absolutas en in*/
 .div-in {
     border: 0.5rem solid green;
     border-radius: 1rem;
     height: 10rem;
-    width: 2in;
+    width: 2in; /* usamos 2in ancho fijo */
     margin: 0.5rem;
     padding: 1rem;
 }
@@ -46,7 +49,7 @@ html {
     border: 0.5rem solid greenyellow;
     border-radius: 1rem;
     height: 5rem;
-    width: 200mm;
+    width: 200mm; /* usamos 200mm ancho fijo */
     margin: 0.5rem;
     padding: 1rem;
 
@@ -62,12 +65,12 @@ html {
 }
 
 .p3pc{
-    font-size: 3pc;
+    font-size: 3pc; /* usamos 3pc tamaño fijo */
     margin: 0.5rem;
 }
 
 .p3q{
-    font-size: 30q;
+    font-size: 30q; /* usamos 30q tamaño fijo */
     margin: 0.5rem;
 
 }

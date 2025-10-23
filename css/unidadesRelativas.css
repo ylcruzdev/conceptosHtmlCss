@@ -1,23 +1,24 @@
 html {
-    font-size: 16px;
+    font-size: 16px; /* 16px es el tamaño del texto de todo el documento, esto funciona como la base para la referencia de las unidades rem*/
 }
 
 .div-20 {
     border: 0.5rem solid blue;
     border-radius: 1rem;
     height: 5rem;
-    width: 20%;
+    width: 20%; /* se usa un ancho de 20%*/
     margin: 2%;
     padding: 1rem;
 }
-
+/* esta clase usa un tamaño de fuente distinto para ejemplificar como funciona la unidad em cuando el div padre cambia el tamaño de letra*/
 .padre-20em {
-    font-size: 20px;
+    font-size: 20px; /* 20px funciona como la base para la referencia de la unidad em */
 }
 
 .div-20em {
     border: 0.5em solid greenyellow;
     border-radius: 1em;
+    /* utilizamos un ancho y un alto en em*/
     height: 10em;
     width: 20em;
     margin: 2em;
@@ -27,6 +28,7 @@ html {
 .div-20rem {
     border: 0.5rem solid green;
     border-radius: 1rem;
+    /* utilizamos un ancho y un alto en rem*/
     height: 10rem;
     width: 20rem;
 }
@@ -34,6 +36,7 @@ html {
 .div-vw {
     border: 0.5rem solid blue;
     border-radius: 1rem;
+    /* utilizamos un ancho y un alto en vh y vw*/
     height: 10vh;
     width: 20vw;
     margin: 2rem;
@@ -43,6 +46,7 @@ html {
 .div-vmin {
     border: 0.5rem solid greenyellow;
     border-radius: 1rem;
+    /* utilizamos un ancho y un alto en vmax y vmin */
     height: 10vmax;
     width: 20vmin;
     margin: 2rem;
@@ -58,18 +62,18 @@ html {
 }
 
 .p3ex{
-    font-size: 3ex;
+    font-size: 3ex; /* usamos un tamaño de fuente en ex */
     margin: 0.5rem;
 }
 
 .p3ch{
-    font-size: 3ch;
+    font-size: 3ch; /* usamos un tamaño de fuente en ch */
     margin: 0.5rem;
 
 }
 
 .p3lh{
-    font-size: 3lh;
+    font-size: 3lh; /* usamos un tamaño de fuente en 3lh */
     margin: 0.5rem;
 
 }

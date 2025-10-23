@@ -1,3 +1,4 @@
+/* la clase title se asigna a una etiqueta h1 para colocar el color de fondo morado y centrar*/
 .title-morado{
     background-color: darkmagenta;
     display: flex;
@@ -5,15 +6,16 @@
     color: black;
 }
 
-
-input[type="text"]{
+/* se usa un selector de css por el atributo en este caso seleccionamos todos los input que tiene un atributo de tipo tex*/
+input[type="text"] {
     background-color: rgb(204, 18, 18);
     height: 3rem;
     justify-content: center;
     margin: 1rem;
 }
 
-input[type="checkbox"]{
+/* se usa un selector de css por el atributo en este caso seleccionamos todos los input que tiene un atributo de tipo checkbox*/
+input[type="checkbox"] {
     background-color: rgb(243, 106, 7);
     height: 4rem;
     justify-content: center;
@@ -33,11 +35,14 @@ div[id="myid"] p{
     color: black;
 }
 
+/* se usa un selector de css por el atributo en este caso seleccionamos todas las imagenes que tienen el atributo alt con valor img*/
 img[alt="img"]{
     background-color:yellow;
     justify-content:center;
     margin: 1rem;
-}   
+}
+
+/* se usa un selector de css por el atributo en este caso seleccionamos todos los input que tiene un atributo de tipo checkbox*/
  button[value="body"]{
     background-color: green;
     justify-content:center;
