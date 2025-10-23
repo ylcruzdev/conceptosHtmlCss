@@ -1,12 +1,16 @@
+
+/*Le hemos dado al titulo un tamaño de letra mayor */
 html{
         font-size: 16px;
 }
+/*Le hemos quitado el estilo de lista para quitarle los puntos del principio de lista*/
 ul {
   list-style-type: none;
   margin: 0.5rem;
   
 }
-
+/*A estas tres clases le hemos dado unas porpiedades para que se posicionen en medio de página,
+ con un tipo de letra como título, que este título tenga una cierta posición y una tamaño concreto*/
 .lista  h1 {
            font-style: italic;
            font-variant: small-caps;
@@ -33,7 +37,7 @@ ul {
            align-items: center;
            font-size: 2rem;
           }
-
+/*Esta clase tiene un color de fondo concreto, posición y tamaño de letra*/
 .lista {
         background-color: chocolate;
         justify-content: center;
@@ -45,14 +49,14 @@ ul {
         font-display:auto;
         
       }
-
+/*Posición de la imágen en la página*/
 .imagen {
         justify-content: center;
         display: flex;
         align-items: center;
         flex-direction: column;
        }
-
+/*Posición de la tabla en la página*/
 .tablas {
         justify-content: center;
         display: flex;
@@ -60,6 +64,7 @@ ul {
         flex-direction: column;
 
         }
+/*Especificamos color de texto, tamaño y grosor de fuente*/
 .tiposviajeros {
                 color: white;
                 font-size: 1.5rem;
