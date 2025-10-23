@@ -3,9 +3,12 @@ header {
     justify-content: center;
 }
 
+/* Tipos de texto - Clase general de titulación o sección */
 .Tipos-de-texto{
     font-style: italic;
+    /* Familia de fuente: 'Courier New' o la fuente monoespaciada genérica. */
     font-family: 'Courier New', Courier, monospace;
+    /* Tamaño de fuente grande (3 veces el tamaño base). */
     font-size: 3rem;
     justify-content: center;
 
@@ -13,6 +16,8 @@ header {
 
 .texto-1 {
     font-family: Arial, Helvetica, sans-serif;
+    /* Aplica una sombra al texto: 1px desplazamiento X, 1px desplazamiento Y, 
+       2px de desenfoque, y un color rojizo semi-transparente (#9b1f1faa). */
     text-shadow: 1px 1px 2px #9b1f1faa;
     display: flex;
     justify-content: center;

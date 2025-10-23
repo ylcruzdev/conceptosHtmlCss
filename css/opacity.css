@@ -16,6 +16,8 @@
 
 .con-opacity { 
     background-color: brown;
+    /* Aplica una opacidad del 50%. Esto hace que TANTO el fondo como el contenido 
+       (texto, imágenes, etc.) de esta caja sean semitransparentes. */
     opacity: 0.5;   
     text-align: center;
 
@@ -27,7 +29,10 @@
 }
 
 .opacity-tran:hover {
+    /* Estilo aplicado cuando el cursor pasa por encima (hover). */
     background-color: pink;
+   /* Cambia la opacidad al 10% (casi totalmente transparente). 
+       Esto crea un efecto de "desaparición" o transparencia al interactuar. */
     opacity: 0.1;
 }
 
